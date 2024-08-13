@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.Title{
+  size: 16px;
+  padding-bottom: 15px;
+}
+.wrapper{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header{
+  display: flex;
+  justify-content: end;
+}
+.login{
+  background: gold;
+  width: 100px;
+  align-items: center;
+  height: 40px;
+}
+.container{
+background-color: blue;
+flex:1.5;
+height: 500px;
+}
+.add-budget{
+  background-color: azure;
+  display:grid;
+  flex:.5;
+}
+.progress-bar{
+background-color: rgb(34, 223, 223);
+flex: .75;
+}
+.add-budget input{
+  display:block;
+}
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.edit{
+  flex:1;
+  background-color: white;
+}
+.tracker{
+  flex:3;
+  background-color:rgb(10, 247, 109);
+}
+.dates{
+  flex:1;
+  background-color: grey;
+}
